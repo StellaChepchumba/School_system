@@ -19,3 +19,4 @@ from django.urls import path
 urlpatterns = [
     path('admin/', admin.site.urls),
 ]
+# where we put all project urls URL-uniform resource collector

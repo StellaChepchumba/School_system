@@ -14,3 +14,5 @@ from django.core.wsgi import get_wsgi_application
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'school_system.settings')
 
 application = get_wsgi_application()
+# web-server gateway interface and is similar to ASGI and runs in synchronous.syncronous is blocking while asynchronous
+# is no-blocking
